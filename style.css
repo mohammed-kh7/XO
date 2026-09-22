@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.game {
+    width: 680px;
+    height: 95vh;
+    /* background-color: #702323; */
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.title {
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 70px;
+    color: #fff;
+    width: 100%;
+    background-color: #9d6f6f;
+}
+
+span {
+    color: yellow;
+}
+
+.square {
+    margin: 5px;
+    width: 200px;
+    height: 180px;
+    background-color: #613434;
+    /* display: inline-block; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 100px;
+}
+
+.square:hover {
+    background-color: #191111;
+    cursor: pointer;
+}
